@@ -49,7 +49,7 @@
 	<img width="1079" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/45a549fc-99df-48e6-a9b1-2f81cefb94da">
 
 
-13. Similarly **perform** step number 11 to step number 16 for the other notebooks as well.
+13. Similarly **perform** step number 7 to step number 12 for the other notebooks as well.
 
 >**Note:** To perform the above steps you need to attach the notebooks to respective lakehouses before runnig the notebooks. Follow the below instruction for the same.
 
