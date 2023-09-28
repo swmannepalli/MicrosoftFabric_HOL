@@ -506,46 +506,37 @@ step 27 finally **click** on the 'Next' button.
 36. **Click** the first script to open it.
 
 	![Datawarehouse.](media/warehouse-19.png)
+37. **copy** the script and paste in the SQL Query tab in Data Warehouse page. **Replace** '#STORAGE_ACCOUNT_NAME#' and '#STORAGE_ACCOUNT_SAS_TOKEN#'. To get these values, 
 
-37. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources).
+38. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources).
 
-38. **Search** for the 'Storage account' **copy** the 'Storage account' and **paste** it in a notepad for further use.
+39. **Search** for the 'Storage account' **copy** the 'Storage account' and **paste** it in the SQL Squery.
 
 	![Datawarehouse.](media/warehouse-22.png)
 
-39. **Click** on searched 'Storage account', **scrolldown** left pane and **click** to select 'Shared access signature'.
+40. **Click** on searched 'Storage account', **scrolldown** left pane and **click** to select 'Shared access signature'.
 
 	![Datawarehouse.](media/warehouse-23.png)
 
-40. **Select** 'Container' in 'Allowed resource type'. **select** 'Read','Write', 'List' in 'Allowed permissions' keep  rest all uncheck. In 'Start and expiry date/time' **select** date & time and then **scrolldown** to **click** 'Generate SAS and connection string' button.
+41. **Select** 'Container' in 'Allowed resource type'. **select** 'Read','Write', 'List' in 'Allowed permissions' keep  rest all uncheck. In 'Start and expiry date/time' **select** date & time and then **scrolldown** to **click** 'Generate SAS and connection string' button.
 
 	![Datawarehouse.](media/warehouse-24.png)
 
 	![Datawarehouse.](media/warehouse-25.png)
 
-41. Below the 'Generate SAS and connection string' button, we can see the generated SAS token. **Copy** and paste it into notepad for further use.
+42. Below the 'Generate SAS and connection string' button, we can see the generated SAS token. **Copy** and paste it in the SQL Squery.
 
 	![Datawarehouse.](media/warehouse-26.png)
 
-42. **Click** '00 Ingest Data In DW Using COPY INTO Command.sql' file and **copy** the script and **replace** '#STORAGE_ACCOUNT_NAME#' and '#STORAGE_ACCOUNT_SAS_TOKEN#' with the appropriate values copied in earlier steps.
-
-43. **Copy** the script.
-
-	![Datawarehouse.](media/warehouse-19.1.png)
-
-44. **Navigate back** to 'salesDW' warehouse explorer to execute SQL scripts and **click** 'New SQL query'. In dropdown, **click** 'New SQL query' again.
-
-	![Datawarehouse.](media/warehouse-21.png)
-
-45. Once the SQL editor opens, **paste** the script which we have modified in step 43. **Right click** on 'SQL query 1' and **click** 'Rename'.
+43.  **Right click** on 'SQL query 1' and **click** 'Rename'.
 
 	![Datawarehouse.](media/warehouse-27.png)
 
-46. **Enter** the name as '00 Ingest Data In DW Using COPY INTO Command.sql' and **click** 'Rename' button.
+48. **Enter** the name as '00 Ingest Data In DW Using COPY INTO Command.sql' and **click** 'Rename' button.
 
 	![Datawarehouse.](media/warehouse-28.png)
 
-47. **Click** the 'three dots (Ellipsis)' in front of the name of the scripts and **select** 'Move to Shared queries'.
+49. **Click** the 'three dots (Ellipsis)' in front of the name of the scripts and **select** 'Move to Shared queries'.
 
 	![Datawarehouse.](media/warehouse-29.png)
 
