@@ -328,23 +328,19 @@ cd ./fabric/fabric/
 3. In 'contosoSales' workspace, **click** on 'lakehouseBronze' lakehouse.
 
     ![Lakehouse.](media/lakehouse-1.png)
-
-4. In the lakehouse window **click** on the 'collapse' icon in front of Files if it is expanded.
-
->**Note:** When the collapse icon is expanded, the three dots icon is note visible.
-
-5. **Click** on the three dots in front of Files.
-6. **Click** on 'New shortcut'.
+   
+4.  **Click** on the three dots in front of Files.
+5. **Click** on 'New shortcut'.
 
 	![Lakehouse.](media/lakehouse-2.png)
 
-7. In the pop-up window, under External sources **select** 'Azure Data Lake Storage Gen2'
+6. In the pop-up window, under External sources **select** 'Azure Data Lake Storage Gen2'
 
 	![Lakehouse.](media/demo-9.png)
 
-8. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources) while script execution with name 'fabric-dpoc-...'.
+7. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources) while script execution with name 'fabric-dpoc-...'.
 
-9. **Search** for 'storage account', **click** the storage account resource.
+8. **Search** for 'storage account', **click** the storage account resource.
 
 	![Lakehouse.](media/demo-10.png)
 
