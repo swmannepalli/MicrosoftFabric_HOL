@@ -3,27 +3,6 @@ Partners can deploy DREAM Demos in their own Azure subscriptions and demonstrate
 Partnering with Microsoft sellers, partners can deploy the Industry scenario DREAM demos into customer subscriptions. 
 Customers can play, get hands-on experience navigating through the demo environment in their own subscription and show it to their own stakeholders.
 
-## Contents
-
-<!-- TOC -->
-
-- [Requirements](#requirements)
-- [Before Starting](#before-starting)
-  - [Task 1: Power BI Workspace and Lakehouse creation](Task1-Power-BI-Workspace-and-Lakehouse-creation.md)
-  - [Task 2: Run the Cloud Shell to provision the demo resources](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
-  - [Task 3: Creating a Shortcut in Lakehouse](Task3-Creating-a-Shortcut-in-Lakehouse.md)
-  - [Task 4: Setting up the Warehouse](Task4-Setting-up-the-Warehouse.md)
-  - [Task 5: Importing Notebooks](Task5-Importing-Notebooks.md)
-  - [Task 6: Creating Internal Shortcut](Task6-Creating-Internal-Shortcut.md)
-  - [Task 7: KQL DB and QuerySet creation](Task7-KQL-DB-and-QuerySet-creation.md)
-
-- [Appendix](#appendix)
-  - [Setting up the Lakehouse](#setting-up-the-lakehouse)
-  - [Creating Pipelines and Dataflows](#creating-pipelines-and-dataflows)
-  - [Creating a Resource Group](#creating-a-resource-group)
-
-<!-- /TOC -->
-
 ## Requirements
 
 * An Azure non-prod external account with the ability to create Fabric Workspace. If you don't have one, use link below to request for one.
@@ -43,6 +22,25 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 * Make sure you use the same valid credentials to log into Azure and Power BI.
 * Once the resources have been setup, ensure that your AD user and synapse workspace have “Storage Blob Data Owner” role assigned on storage account name starting with “storage”.
 * Review the [License Agreement](https://github.com/microsoft/Azure-Analytics-and-AI-Engagement/blob/main/CDP-Retail/license.md) before proceeding.
+  
+## Contents
+
+  - [Task 1: Power BI Workspace and Lakehouse creation](Task1-Power-BI-Workspace-and-Lakehouse-creation.md)
+  - [Task 2: Run the Cloud Shell to provision the demo resources](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
+  - [Task 3: Creating a Shortcut in Lakehouse](Task3-Creating-a-Shortcut-in-Lakehouse.md)
+  - [Task 4: Setting up the Warehouse](Task4-Setting-up-the-Warehouse.md)
+  - [Task 5: Importing Notebooks](Task5-Importing-Notebooks.md)
+  - [Task 6: Creating Internal Shortcut](Task6-Creating-Internal-Shortcut.md)
+  - [Task 7: KQL DB and QuerySet creation](Task7-KQL-DB-and-QuerySet-creation.md)
+
+- [Appendix](#appendix)
+  - [Setting up the Lakehouse](#setting-up-the-lakehouse)
+  - [Creating Pipelines and Dataflows](#creating-pipelines-and-dataflows)
+  - [Creating a Resource Group](#creating-a-resource-group)
+
+<!-- /TOC -->
+
+
 
 
 
