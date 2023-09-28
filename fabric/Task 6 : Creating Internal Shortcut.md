@@ -1,0 +1,39 @@
+### Task 6 : Creating Internal Shortcut
+
+>**Note:** In this task we are creating Internal Shortcut in lakehouse 'Silver To Gold'
+
+1. In Power BI workspace **click** on 'Workspaces' and **select** 'contosoSales'.
+
+	![Close the browser.](media/demo-4.png)
+
+2. **Filter** 'Lakehouse' and then **select** 'lakehouseGold'.
+    
+	![Close the browser.](media/FilterLakehouseGold.png)
+	
+3. **Click** on the 'three dots' infont of Tables and then **select** 'New Shortcut'.
+
+	![Close the browser.](media/LakehouseGoldShortcut1.png)
+
+4. In the 'Internal Sources' section **select** 'Microsoft OneLake'.
+
+	![Close the browser.](media/LakehouseGoldShortcut2.png)
+
+5. **Search** for 'lakehouseSilver' in the search box, **click** on 'lakehouseSilver' and then **click** on 'Next'.
+
+	![Close the browser.](media/LakehouseGoldShortcut3.png)
+
+6. **Click** on Tables, **select** 'dimension_date' and then **click** on 'Create'.
+
+	![Close the browser.](media/LakehouseGoldShortcut4.png)
+
+7. **Repeat** step number 2 to step number 6 for the other tables in the below tables.
+
+	|	Table Name	|	Create Shortcut From Lakehouse	|
+	| -----------	| ------------- |
+	|	dimesion_product|	lakehouseSilver	|
+	|	dimesion_customer|	lakehouseSilver	|
+	|	fact_sales|	lakehouseSilver	|
+	|	fact_campaigndata|	lakehouseSilver	|
+	|||
+
+>**Note:** Once you are done with Task 6 please go back to Task 5 and follow the steps from the point where you had stopped.
