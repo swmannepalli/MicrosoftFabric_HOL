@@ -63,11 +63,23 @@
 	|	05 Sales Forecasting for Store items in Gold Layer	|	lakehouseSilver	|
 	|||
 
->**Note:** Please complete Task 6 and then execute notebook '05 Sales Forecasting for Store items in Gold Layer'.
-
-> Please comeback to continue with the below given steps after completing Task 6
-
+**Execute notebook '05 Sales Forecasting for Store items in Gold Layer'**
 15. In PowerBI workspace **click** on 'Workspaces' and **select** 'contosoSales'.
+
+	![Close the browser.](media/demo-4.png)
+
+16. **Filter** 'Notebook' and then **click** on the notebook '05 Sales Forecasting for Store items in Gold Layer'
+
+	![Close the browser.](media/notebook-16.png)
+
+17. Under Step 1, replace #LAKEHOUSE_SILVER# with lakehouseSilver (This is the lakehouse name for Silver) 
+18. **Click** on the 'Run all' button.
+
+	![Close the browser.](media/notebook-17.png)
+
+
+
+19. In PowerBI workspace **click** on 'Workspaces' and **select** 'contosoSales'.
 
 	![Close the browser.](media/demo-4.png)
 
