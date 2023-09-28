@@ -63,7 +63,8 @@
 	|	05 Sales Forecasting for Store items in Gold Layer	|	lakehouseSilver	|
 	|||
 
-**Execute notebook '05 Sales Forecasting for Store items in Gold Layer'**
+### Execute notebook '05 Sales Forecasting for Store items in Gold Layer'
+
 15. In PowerBI workspace **click** on 'Workspaces' and **select** 'contosoSales'.
 
 	![Close the browser.](media/demo-4.png)
