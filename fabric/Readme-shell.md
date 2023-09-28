@@ -44,7 +44,8 @@ Customers can play, get hands-on experience navigating through the demo environm
 
 ## Requirements
 
-* An Azure non-prod external account with the ability to create Fabric Workspace.
+* An Azure non-prod external account with the ability to create Fabric Workspace. If you don't have one, use link below to request for one.
+https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-newazuresubscription%2F%3FServiceId%3D78b2e66c-42f2-e811-a96a-000d3a30da4f
 * A Power BI with Fabric License to host Power BI reports.
 * Make sure your Power BI administrator can provide service principal access on your Power BI tenant.
 * Make sure to register the following resource providers with your Azure Subscription:
