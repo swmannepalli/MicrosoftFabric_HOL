@@ -184,8 +184,6 @@ cd ./fabric/fabric/
 ```
 ./fabricSetup.ps1
 ```
-    
-   ![Commands to run the PowerShell Script.](media/cloud-shell-5.1.png)
       
 10. From the Azure Cloud Shell, **copy** the authentication code. You will need to enter this code in next step.
 
