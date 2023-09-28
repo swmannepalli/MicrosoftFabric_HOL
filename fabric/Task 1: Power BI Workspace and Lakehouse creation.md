@@ -5,7 +5,7 @@
 
 3. **Sign in** to Power BI.
 
-	![Sign in to Power BI.](fabric/media/power-bi.png)
+	![Sign in to Power BI.](media/power-bi.png)
 
 	> **Note:** Use your Azure Active Directory credentials to login to Power BI.
 
@@ -13,7 +13,7 @@
 
 5. **Click** '+ New workspace' button.
 
-	![Create Power BI Workspace.](fabric/media/power-bi-2.png)
+	![Create Power BI Workspace.](media/power-bi-2.png)
 
 6. **Enter** the name as 'contosoSales', expand Advanced and select Trial under License mode  and **click** 'Apply'.
 
@@ -27,7 +27,7 @@
 
 8. **Save** the GUID in a notepad for future reference.
 
-	![Give the name and description for the new workspace.](fabric/media/power-bi-3.png)
+	![Give the name and description for the new workspace.](media/power-bi-3.png)
 
 	> **Note:** This workspace ID will be used during powershell script execution.
 
@@ -38,17 +38,17 @@
 
 10. In the new window **click** 'Lakehouse(Preview)'.
 
-    ![Close the browser.](fabric/media/demo-6.png)
+    ![Close the browser.](media/demo-6.png)
 
 11. **Enter** the name as 'lakehouseBronze'.
 
 12. **Click** 'Create' button.
 
-    ![Close the browser.](fabric/media/demo-7.png)
+    ![Close the browser.](media/demo-7.png)
 
 13. **Click** 'Workspaces' and **select** 'contosoSales'.
 
-	![Give the name and description for the new workspace.](fabric/media/power-bi-5.png)
+	![Give the name and description for the new workspace.](media/power-bi-5.png)
 
 14. **Repeat** step number 9 to 12 to create two more lakehouses with names 'lakehouseSilver' and 'lakehouseGold' respectively.
 
