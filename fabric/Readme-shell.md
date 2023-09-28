@@ -125,20 +125,22 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 ### Task 2: Run the Cloud Shell to provision the demo resources
 
 1. **Open** Azure Portal by clicking [HERE](https://portal.azure.com/)
+   
+   >**Note:** Make sure to login using non-prod external subscription credentials.
 
-2. In the Resource group section, **select** the Terminal icon to open Azure Cloud Shell.
+3. In the Resource group section, **select** the Terminal icon to open Azure Cloud Shell.
 
 	![A portion of the Azure Portal taskbar is displayed with the Azure Cloud Shell icon highlighted.](media/cloud-shell.png)
 
-3. **Click** on the 'PowerShell'.
+4. **Click** on the 'PowerShell'.
 
-4. **Click** 'Show advanced settings'.
+5. **Click** 'Show advanced settings'.
 
 	![Mount a Storage for running the Cloud Shell.](media/cloud-shell-2.png)
 
 	> **Note:** If you already have a storage mounted for Cloud Shell, you will not get this prompt. In that case, skip step 5 and 6.
 
-5. **Select** your 'Subscription', 'Cloud Shell region' and 'Resource Group'.
+6. **Select** your 'Subscription', 'Cloud Shell region' and 'Resource Group'.
 
 >**Note:** If you do not have an existing resource group please follow the steps mentioned [HERE](#creating-a-resource-group) to create one. Complete the task and then continue with the below steps.
 
