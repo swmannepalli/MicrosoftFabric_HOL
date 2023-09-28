@@ -319,7 +319,7 @@ cd ./fabric/fabric/
 
 ### Task 3: Creating a Shortcut in Lakehouse
 
-1. **Open** [Power BI]((https://app.powerbi.com/))
+1. **Open** [Power BI](https://app.powerbi.com/)
 
 2. In PowerBI, **click** 'Workspaces' and **select** 'contosoSales'
 
