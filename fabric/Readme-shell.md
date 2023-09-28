@@ -124,7 +124,7 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 
 ### Task 2: Run the Cloud Shell to provision the demo resources
 
-1. **Open** Azure Portal by clicking [HERE](https://portal.azure.com/)
+1. **Open** Azure Portal in a new tab by clicking [HERE](https://portal.azure.com/)
    
    >**Note:** Make sure to login using non-prod external subscription credentials.
 
