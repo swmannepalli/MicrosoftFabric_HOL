@@ -66,20 +66,21 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 ### Task 1: Power BI Workspace and Lakehouse creation
 
 1. **Open** Power BI in a new tab by clicking [HERE](https://app.powerbi.com/)
+>**Note:** Make sure to login using non-prod external subscription credentials.
 
-2. **Sign in** to Power BI.
+3. **Sign in** to Power BI.
 
 	![Sign in to Power BI.](media/power-bi.png)
 
 	> **Note:** Use your Azure Active Directory credentials to login to Power BI.
 
-3. In Power BI service **click** 'Workspaces'.
+4. In Power BI service **click** 'Workspaces'.
 
-4. **Click** '+ New workspace' button.
+5. **Click** '+ New workspace' button.
 
 	![Create Power BI Workspace.](media/power-bi-2.png)
 
-5. **Enter** the name as 'contosoSales', expand Advanced and select Trial under License mode  and **click** 'Apply'.
+6. **Enter** the name as 'contosoSales', expand Advanced and select Trial under License mode  and **click** 'Apply'.
 
 >**Note:** The name of the workspace should be in camel case, i.e. the first word starting with a small letter and then the second word staring with a capital letter with no spaces in between.
 
