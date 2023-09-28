@@ -96,10 +96,6 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 
 	> **Note:** This workspace ID will be used during powershell script execution.
 
-10. **Scroll down** and **click** on 'Apply'.
-
-	![Give the name and description for the new workspace.](media/power-bi-8.png)
-
 11. In Power BI service **Click** '+ New' and then **select** 'Show all'.
 
     ![Close the browser.](media/demo-5.png)
