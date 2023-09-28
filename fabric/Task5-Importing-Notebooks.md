@@ -46,7 +46,8 @@
 
 12. **Click** on 'lakehouseSilver' checkbox and **click** on 'Add'.
 
-	![Datawarehouse.](media/notebook-15.png)
+	<img width="1079" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/45a549fc-99df-48e6-a9b1-2f81cefb94da">
+
 
 13. Similarly **perform** step number 11 to step number 16 for the other notebooks as well.
 
