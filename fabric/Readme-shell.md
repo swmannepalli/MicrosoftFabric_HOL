@@ -120,6 +120,7 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 17. **Repeat** step number 4 to 6 to **create** a new workspace with the name 'contosoFinance' and then **create** a lakehouse in it and name it 'lakehouseFinance'.
 
 >**Note:** Make sure to add this workspace has fabric Trial License as well and note the names of the workspaces and lakehouses as these will be used during the script execution(Task 2)
+>**Note:** **Copy** the Workspace GUID or ID from the address URL and **Save** the GUID in a notepad for future reference.
 
 
 ### Task 2: Run the Cloud Shell to provision the demo resources
@@ -128,19 +129,19 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
    
    >**Note:** Make sure to login using non-prod external subscription credentials.
 
-3. In the Resource group section, **select** the Terminal icon to open Azure Cloud Shell.
+2. In the Resource group section, **select** the Terminal icon to open Azure Cloud Shell.
 
 	![A portion of the Azure Portal taskbar is displayed with the Azure Cloud Shell icon highlighted.](media/cloud-shell.png)
 
-4. **Click** on the 'PowerShell'.
+3. **Click** on the 'PowerShell'.
 
-5. **Click** 'Show advanced settings'.
+4. **Click** 'Show advanced settings'.
 
 	![Mount a Storage for running the Cloud Shell.](media/cloud-shell-2.png)
 
 	> **Note:** If you already have a storage mounted for Cloud Shell, you will not get this prompt. In that case, skip step 5 and 6.
 
-6. **Select** your 'Subscription', 'Cloud Shell region' and 'Resource Group'.
+5. **Select** your 'Subscription', 'Cloud Shell region' and 'Resource Group'.
 
 >**Note:** If you do not have an existing resource group please follow the steps mentioned [HERE](#creating-a-resource-group) to create one. Complete the task and then continue with the below steps.
 
@@ -254,9 +255,9 @@ cd ./fabric/fabric/
 
 >**Note:** Copy the password in Notepad for further reference.
 
-28. **Enter** the workspace id which you copied in Step 6 of [Task 1](#task-1-power-bi-workspace-and-lakehouse-creation).
+28. **Enter** the workspace ids which you copied in Step 7 and 17 of [Task 1](#task-1-power-bi-workspace-and-lakehouse-creation).
 
-	![Enter Resource Group name.](media/cloud-shell-14.1.png)
+	<img width="620" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/f36f6aa9-dbf1-45b9-86dc-2c950492c6b0">
 
 29. **Enter** all the lakehouses name one by one.
 
