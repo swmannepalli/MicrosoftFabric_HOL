@@ -79,7 +79,7 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 
 	![Create Power BI Workspace.](media/power-bi-2.png)
 
-5. **Enter** the name as 'contosoSales' and **click** 'Apply'.
+5. **Enter** the name as 'contosoSales', expand Advanced and select Trial under License mode  and **click** 'Apply'.
 
 >**Note:** The name of the workspace should be in camel case, i.e. the first word starting with a small letter and then the second word staring with a capital letter with no spaces in between.
 
@@ -96,16 +96,6 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 	![Give the name and description for the new workspace.](media/power-bi-3.png)
 
 	> **Note:** This workspace ID will be used during powershell script execution.
-
-8. In the workspace **click** the three dots(Ellipsis) and **select** 'Workspace settings'.
-
-	![Give the name and description for the new workspace.](media/power-bi-6.png)
-
-9. In the left pane of the side bar **click** 'Premium', scroll down and **check** the 'Trial' radio box.
-
-	![Give the name and description for the new workspace.](media/power-bi-7.png)
-
->**Note:** All workspaces used in this demo use 'Trial' License type. 
 
 10. **Scroll down** and **click** on 'Apply'.
 
