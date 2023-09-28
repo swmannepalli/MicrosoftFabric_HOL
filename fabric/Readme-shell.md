@@ -261,7 +261,8 @@ cd ./fabric/fabric/
 
 29. **Enter** all the lakehouses name one by one.
 
-<img width="383" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/d593c71b-31c1-4b7c-a00a-eb4faba311de">
+<img width="418" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/9fd15a1a-47f2-4de0-855c-52630d43c795">
+
 
 30. You will get another code to authenticate the Azure PowerShell script for creating reports in Power BI. **Copy** the code.
 
