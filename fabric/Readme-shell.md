@@ -404,61 +404,61 @@ cd ./fabric/fabric/
 
 	![Datawarehouse.](media/warehouse-3.png)
 
-6. **Click** 'Get data'.
+>**Note:** It would take some time for the page to load, please wait.
 
-7. **Select** 'New data pipeline'.
+7. **Click** 'Get data'.
+
+8. **Select** 'New data pipeline'.
 
 	![Datawarehouse.](media/warehouse-4.png)
 
->**Note:** It would take some time for the page to load, please wait for the
+9. In the pop-up **enter** the name as '02 Sales data from Azure SQL DB to Data Warehouse - Low Code Experience'.
 
-8. In the pop-up **enter** the name as '02 Sales data from Azure SQL DB to Data Warehouse - Low Code Experience'.
+10. **Click** Create.
 
-9. **Click** Create.
-
-10. **Wait** for a new pop-up.
+11. **Wait** for a new pop-up.
 
 	![Datawarehouse.](media/warehouse-5.png)
 
-11. In the pop-up **scroll down**.
+12. In the pop-up **scroll down**.
 
-12. **Select** 'Azure SQL Database'.
+13. **Select** 'Azure SQL Database'.
 
-13. **Click** 'Next' button.
+14. **Click** 'Next' button.
 
 	![Datawarehouse.](media/warehouse-6.png)
 
-14. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources).
+15. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources).
 
-15. **Search** for 'sql server'.
+16. **Search** for 'sql server'.
 
-16. **Click** on the SQL server resource.
+17. **Click** on the SQL server resource.
 
 	![Datawarehouse.](media/warehouse-7.png)
 
-17. In the resource window **copy** the 'Server admin'.
+18. In the resource window **copy** the 'Server admin'.
 
-18. **Save** it in a notepad for further use.
+19. **Save** it in a notepad for further use.
 
-19. **Copy** the 'Server name'.
+20. **Copy** the 'Server name'.
 
-20. **Save** it in a notepad for further use.
+21. **Save** it in a notepad for further use.
 
-21. **Click** 'SQL databases' under the Settings in the left pane.
+22. **Click** 'SQL databases' under the Settings in the left pane.
 
 	![Datawarehouse.](media/warehouse-8.png)
 
-22. **Copy** the name of database and **paste** it in a notepad for further use.
+23. **Copy** the name of database and **paste** it in a notepad for further use.
 
 	![Datawarehouse.](media/warehouse-9.png)
 
-23. **Go back** to the PowerBI tab.
+24. **Go back** to the PowerBI tab.
 
-24. **Select** 'Create new connection' radio button, in the 'Server;' and 'Database' field **paste** the value copied in step number 19 and 22.
+25. **Select** 'Create new connection' radio button, in the 'Server;' and 'Database' field **paste** the value copied in step number 19 and 22.
 
 	![Datawarehouse.](media/warehouse-10.png)
 
-25. **Select** Authentication kind as 'Basic', **enter** Username as 'labsqladmin' and Password you copied in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources)
+26. **Select** Authentication kind as 'Basic', **enter** Username as 'labsqladmin' and Password you copied in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources)
 step 28 finally **click** on the 'Next' button.
 
 ![Datawarehouse.](media/warehouse-11.png)
