@@ -459,7 +459,7 @@ cd ./fabric/fabric/
 	![Datawarehouse.](media/warehouse-10.png)
 
 26. **Select** Authentication kind as 'Basic', **enter** Username as 'labsqladmin' and Password you copied in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources)
-step 28 finally **click** on the 'Next' button.
+step 27 finally **click** on the 'Next' button.
 
 ![Datawarehouse.](media/warehouse-11.png)
 
