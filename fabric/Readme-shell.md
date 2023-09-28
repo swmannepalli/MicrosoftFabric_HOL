@@ -495,7 +495,7 @@ step 27 finally **click** on the 'Next' button.
 
 >**Note:** Please wait for the resultant data to load.
 
-33. **Wait** for the status of pipeline to be 'Succeeded' and **go back** the the Data Warehouse from the workspace.
+33. **Wait** for the status of pipeline to be 'Succeeded' and **go back** to the Data Warehouse from the workspace.
 
 34. **Open** the Data Warehouse and **click** 'New SQL query'.
 
