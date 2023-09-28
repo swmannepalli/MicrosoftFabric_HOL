@@ -20,7 +20,8 @@
 
 5. **Search** for 'lakehouseSilver' in the search box, **click** on 'lakehouseSilver' and then **click** on 'Next'.
 
-	![Close the browser.](media/LakehouseGoldShortcut3.png)
+	<img width="1048" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/62abe067-024e-416c-b012-2f9c79b8ca10">
+
 
 6. **Click** on Tables, **select** 'dimension_date' and then **click** on 'Create'.
 
