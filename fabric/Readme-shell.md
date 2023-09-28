@@ -167,7 +167,8 @@ Command:
 git clone -b microsoftfabric --depth 1 --single-branch https://github.com/swmannepalli/MicrosoftFabric_HOL.git fabric
 ```
 
-   ![Git Clone Command to Pull Down the demo Repository.](media/cloud-shell-4.5.png)
+   <img width="1243" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/0aa3f391-dc61-48f0-8999-84a92a06df62">
+
 	
    > **Note:** If you get File already exist error, please execute the following command to delete existing clone and then reclone:
 ```
