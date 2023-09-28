@@ -364,12 +364,12 @@ cd ./fabric/fabric/
 
 >**Note:** You may see different endpoints as well in the above screen. Make sure to select only the Data Lake Storage endpoint.
 
-19. **Navigate back** to Power BI workspace i.e. the powerbi tab which we working earlier.
+19. **Navigate back** to Power BI workspace i.e. the powerbi tab.
 20. **Paste** the endpoint copied under the 'URL' field.
 
 21. In the 'Authentiation kind' dropdown, **select** 'Account Key'.
 
-22. **Paste** the account key copied in step number 13.
+22. **Paste** the account key copied.
 
 23. **Click** on 'Next'.
 
