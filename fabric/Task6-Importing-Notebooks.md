@@ -72,19 +72,17 @@
 16. **Filter** 'Notebook' and then **click** on the notebook '05 Sales Forecasting for Store items in Gold Layer'
 
 17. Under Step 1, replace #LAKEHOUSE_SILVER# with lakehouseSilver (This is the lakehouse name for Silver) an under step 9, replace #LAKEHOUSE_GOLD# with lakehouseGold (This is the lakehouse name for Gold)
+    
 18. **Click** on the 'Run all' button.
-
-	![Close the browser.](media/notebook-17.png)
-
 
 19. In PowerBI workspace **click** on 'Workspaces' and **select** 'contosoSales'.
 
 	![Close the browser.](media/demo-4.png)
 
-16. **Filter** 'Notebook' and then **click** on the notebook '03 Silver to Gold layer_ Medallion Architecture'
+20. **Filter** 'Notebook' and then **click** on the notebook '03 Silver to Gold layer_ Medallion Architecture'
 
 	![Close the browser.](media/notebook-16.png)
 
-17. **Click** on the 'Run all' button.
+21. **Click** on the 'Run all' button.
 
 	![Close the browser.](media/notebook-17.png)
