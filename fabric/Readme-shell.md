@@ -96,9 +96,10 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 
 	> **Note:** This workspace ID will be used during powershell script execution.
 
-11. In Power BI service **Click** '+ New' and then **select** 'Show all'.
+11. In Power BI service **Click** '+ New' and then **select** 'More options'.
 
-    ![Close the browser.](media/demo-5.png)
+   <img width="343" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/6b6af585-e359-4fca-bafa-bc37bcda342e">
+
 
 12. In the new window **click** 'Lakehouse(Preview)'.
 
