@@ -164,7 +164,7 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 
 Command:
 ```
-git clone -b microsoftfabric --depth 1 --single-branch https://github.com/microsoft/Azure-Analytics-and-AI-Engagement.git fabric
+git clone -b microsoftfabric --depth 1 --single-branch https://github.com/swmannepalli/MicrosoftFabric_HOL.git fabric
 ```
 
    ![Git Clone Command to Pull Down the demo Repository.](media/cloud-shell-4.5.png)
