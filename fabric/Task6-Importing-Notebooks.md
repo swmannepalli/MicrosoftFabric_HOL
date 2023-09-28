@@ -71,8 +71,6 @@
 
 16. **Filter** 'Notebook' and then **click** on the notebook '05 Sales Forecasting for Store items in Gold Layer'
 
-	![Close the browser.](media/notebook-16.png)
-
 17. Under Step 1, replace #LAKEHOUSE_SILVER# with lakehouseSilver (This is the lakehouse name for Silver) 
 18. **Click** on the 'Run all' button.
 
