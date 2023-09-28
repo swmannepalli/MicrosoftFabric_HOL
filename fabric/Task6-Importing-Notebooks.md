@@ -1,4 +1,4 @@
-### Task 5: Importing Notebooks
+### Task 6: Importing Notebooks
 
 1. Click and open [link](artifacts/fabricnotebooks) in new tab to download notebooks. You can download one at a time, click on each notebook and download raw file.
 
