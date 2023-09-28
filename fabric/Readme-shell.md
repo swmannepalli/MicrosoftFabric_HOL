@@ -88,8 +88,6 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
 
 >Workspace name should not have any spaces.
 
-   ![Create Power BI Workspace.](media/power-bi-4.png)
-
 6. **Copy** the Workspace GUID or ID from the address URL.
 
 7. **Save** the GUID in a notepad for future reference.
