@@ -1,4 +1,4 @@
-### Task 6 : Creating Internal Shortcut
+### Task 5 : Creating Internal Shortcut
 
 >**Note:** In this task we are creating Internal Shortcut in lakehouse 'Silver To Gold'
 
