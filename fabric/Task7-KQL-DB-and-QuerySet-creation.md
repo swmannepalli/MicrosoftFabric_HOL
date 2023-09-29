@@ -74,9 +74,10 @@
 
 	![Close the browser.](media/demo-44.png)
 
-19. Once you see the table size is increased then, **click** 'Check your data' button. 
+19. Once you see the table size is increased then, **click** 'Explore your data' button. 
 
-	![Close the browser.](media/demo-45.png)
+	<img width="805" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/c0424e9b-d834-4c15-96fe-a85f48be91d5">
+
 
 20. It will open the KQL queryset editor. **Click** link [KQL Queryset Scripts](https://github.com/microsoft/Azure-Analytics-and-AI-Engagement/tree/microsoftfabric/fabric/artifacts/kqlscripts). **Copy** and **paste** the script in the editor and **click** 'Run' button.
 
