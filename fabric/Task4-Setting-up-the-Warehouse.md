@@ -130,11 +130,10 @@ step 27 finally **click** on the 'Next' button.
 
 	![Datawarehouse.](media/warehouse-23.png)
 
-41. **Select** 'Container' in 'Allowed resource type'. **select** 'Read','Write', 'List' in 'Allowed permissions' keep  rest all uncheck. In 'Start and expiry date/time' **select** date & time and then **scrolldown** to **click** 'Generate SAS and connection string' button.
+41. **Select** 'Container' and 'Object' in 'Allowed resource type'. **select** 'Read','Write', 'List' in 'Allowed permissions' . **select** HTTPS and HTTP under Allowed Protocols. keep  rest all uncheck. In 'Start and expiry date/time' **select** date & time and then **scrolldown** to **click** 'Generate SAS and connection string' button.
 
-	![Datawarehouse.](media/warehouse-24.png)
+	<img width="1042" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/0d8ff029-a27f-495a-aee4-d5abc1cd854c">
 
-	![Datawarehouse.](media/warehouse-25.png)
 
 42. Below the 'Generate SAS and connection string' button, we can see the generated SAS token. **Copy** and paste it in the SQL Squery.
 
