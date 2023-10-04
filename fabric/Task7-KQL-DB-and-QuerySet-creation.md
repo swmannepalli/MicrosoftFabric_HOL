@@ -100,6 +100,5 @@
 
 	![Close the browser.](media/demo-49.png)
 
-22. Now this will open the Queryset editor. **Copy** the queries from step 20 and **paste** it to queryset editor. **Select** the query and **click** 'Run' button.
+22. Now this will open the Queryset editor. **Copy** the queries from step 10 and **paste** it to queryset editor. **Select** the query and **click** 'Run' button.
 
-	![Close the browser.](media/demo-50.png)
