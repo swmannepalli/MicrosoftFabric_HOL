@@ -23,9 +23,10 @@
 	<img width="1048" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/62abe067-024e-416c-b012-2f9c79b8ca10">
 
 
-6. **Click** on Tables, **select** 'dimension_date' and then **click** on 'Create'.
+6. **Click** on Tables, **select** 'dim_date' and then **click** on 'Create'.
 
-	![Close the browser.](media/LakehouseGoldShortcut4.png)
+	<img width="964" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/c5c041ad-d267-4e45-9ebd-384c7ef67f37">
+
 
 7. **Repeat** step number 2 to step number 6 for the other tables in the below tables.
 
