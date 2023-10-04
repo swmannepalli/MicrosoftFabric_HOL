@@ -1,5 +1,11 @@
 ### Task 2: Run the Cloud Shell to provision the demo resources
 
+In this task the following serives are deployed which are used in different tasks.
+
+<img width="702" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/c445ac3f-e201-43ed-a643-d84ba5846173">
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
 1. **Open** Azure Portal in a new tab by clicking [HERE](https://portal.azure.com/)
    
    >**Note:** Make sure to login using non-prod external subscription credentials.
