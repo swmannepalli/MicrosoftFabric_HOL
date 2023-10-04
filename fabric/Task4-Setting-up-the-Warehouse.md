@@ -1,5 +1,13 @@
 ### Task 4: Setting up the Warehouse
 
+	In this task, 
+	
+	1. we set up a Data Warehouse
+	2. Copy data from Azure SQL Database to Data Warehouse using data pipeline
+	3. Execute SQL scripts
+	4. Create Visual Query
+ ----------------------------------------------------------------------------------------------
+
 1. In the bottom-left corner of the PowerBI tab **click** on 'Power BI'.
 
 2. **Select** 'Data Warehouse'.
