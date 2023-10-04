@@ -1,7 +1,8 @@
 ### Task 1: Power BI Workspace and Lakehouse creation
 
-In this task we create two workspaces - ContosoSales and ContosoFinance and four lakehouses - lakehouseBronze, lakehouseSilver and lakehouseGold in ContosoSales workspace and lakehouseFinance in ContosoFinance workspace.
+ In this task we create two workspaces - ContosoSales and ContosoFinance and four lakehouses - lakehouseBronze, lakehouseSilver and lakehouseGold in ContosoSales workspace and lakehouseFinance in ContosoFinance workspace.
 
+-------------------------------------------------------------------------------------------------------------------
 
 1. **Open** Power BI in a new tab by clicking [HERE](https://app.powerbi.com/)
 
