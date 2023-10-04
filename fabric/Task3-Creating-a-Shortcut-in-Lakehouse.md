@@ -1,6 +1,6 @@
 ### Task 3: Creating a Shortcut in Lakehouse
 
-In this task we create a shortcut to external data source, AzureDataLake Gen2. 
+In this task we create a shortcut to external data source, AzureDataLake Gen2 from lakehouseBronze
 
 -----------------------------------------------------------------------------------------
 
