@@ -1,5 +1,9 @@
 ### Task 6: Importing Notebooks
 
+In this task, we import 5 notebooks and we only execute 1 to show how it works. Rest are for reference only.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 1. Click and open [link](artifacts/fabricnotebooks) in new tab to download notebooks. You can download one at a time, click on each notebook and download raw file.
 
 2. **Open** Fabric workspace in a new tab using the following link:  [https://app.powerbi.com/](https://app.powerbi.com/) at the bottom left corner **click** 'Power BI' and **select** 'Data Science'.
