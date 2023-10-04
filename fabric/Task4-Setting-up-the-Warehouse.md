@@ -156,7 +156,8 @@ step 27 finally **click** on the 'Next' button.
 48. **Repeat** above steps for the other two scripts in the repository. Get the scripts [HERE](https://github.com/microsoft/Azure-Analytics-and-AI-Engagement/tree/microsoftfabric/fabric/artifacts/warehousescripts)
 
 >**Note:** If there are no replacements necessary in the scripts, you can skip the steps in between.
-> We're not going to execute these scripts now as the tables are already created as part of deployment. These scripts are for your reference in the future.
+
+Execute each script to view results.
 
 49. **Click** 'New visual query'.
 
