@@ -1,5 +1,9 @@
 ### Task 3: Creating a Shortcut in Lakehouse
 
+In this task we create a shortcut to external data source, AzureDataLake Gen2. 
+
+-----------------------------------------------------------------------------------------
+
 1. **Open** [Power BI](https://app.powerbi.com/)
 
 2. In PowerBI, **click** 'Workspaces' and **select** 'contosoSales'
