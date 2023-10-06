@@ -1,4 +1,4 @@
-# Task number ?: Dataverse link for Fabric
+# Task number 8: Dataverse link for Fabric
 
 This will walk you through the end to end process of setting up Dataverse Link for Fabric in your environment to test.
 
