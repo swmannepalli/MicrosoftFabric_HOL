@@ -6,6 +6,11 @@ In this task the following serives are deployed which are used in different task
 
 <img width="702" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/c445ac3f-e201-43ed-a643-d84ba5846173">
 
+In addition, 
+
+1. Files are uploaded to lakehouseBronze, tables are created in lakehouseSilver.
+2. Power BI reports are generated along with datasets.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. **Open** Azure Portal in a new tab by clicking [HERE](https://portal.azure.com/)
