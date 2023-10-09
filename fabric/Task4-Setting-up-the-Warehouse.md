@@ -150,7 +150,7 @@ step 27 finally **click** on the 'Next' button.
 
 	![Datawarehouse.](media/warehouse-26.png)
 
-43.  **Right click** on 'SQL query 1' and **click** 'Rename'.
+43.  **Right click** on 'SQL query 1' and **click** 'Rename'. If rename is not highlighted, expand Queries on the left hand side and click on three dots next to sql query and rename from here.
 
 
 44. **Enter** the name as '00 Ingest Data In DW Using COPY INTO Command.sql' and **click** 'Rename' button.
