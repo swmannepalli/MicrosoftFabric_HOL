@@ -30,7 +30,6 @@ In this task, we import 5 notebooks and we only execute 1 to show how it works. 
 
 7. In the workspace **click** on the "03 Silver to Gold layer_ Medallion Architecture" notebook.
 
-	![Datawarehouse.](media/notebook-6.png)
 
 8. In the left pane **click** on 'Missing Lakehouse' button and **select** 'Remove all Lakehouses'.
 
@@ -51,8 +50,6 @@ In this task, we import 5 notebooks and we only execute 1 to show how it works. 
 	![Datawarehouse.](media/notebook-14.png)
 
 12. **Click** on 'lakehouseGold' checkbox and **click** on 'Add'.
-
-	<img width="1079" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/45a549fc-99df-48e6-a9b1-2f81cefb94da">
 
 For this workshop, we can skip steps 13 and 14 as we're not executing other notebooks now. 
 13. Similarly **perform** step number 7 to step number 12 for the other notebooks as well.
