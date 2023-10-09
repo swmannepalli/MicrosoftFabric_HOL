@@ -1,3 +1,5 @@
+ [Home](README.md) -  [Next Task (Demo Resources Provision) >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
+
 ### Task 1: Power BI Workspace and Lakehouse creation
 
  In this task we create a workspace - ContosoSales and three lakehouses - lakehouseBronze, lakehouseSilver and lakehouseGold.
