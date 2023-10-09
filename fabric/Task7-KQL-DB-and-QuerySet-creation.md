@@ -1,3 +1,4 @@
+[Home](Readme-shell.md) -  [Next Task (Dataverse Link) >](Task8-Dataverse-Link.md)
 
 ### Task 7: KQL DB and QuerySet creation
 
@@ -102,3 +103,4 @@
 
 22. Now this will open the Queryset editor. **Copy** the queries from step 10 and **paste** it to queryset editor. **Select** the query and **click** 'Run' button.
 
+[Continue >](Task8-Dataverse-Link.md)
