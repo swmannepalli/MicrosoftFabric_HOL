@@ -1,12 +1,11 @@
 ---------------
 
-Create or Alter PROCEDURE Top10_MostValuableCustomer 
+Create or Alter PROCEDURE Top10_MostValuableStores
 as 
 
     With resultdata as( 
     Select  
-        coalesce(DC.FirstName,DC.MiddleName,DC.LastName) CustomerName, 
-        DC.Occupation, 
+	DS.StoreName,
         DP.ProductName, 
         Sum(Cast(FS.SalesAmount as decimal(18,2))) TotalSalesAmount 
         ,DENSE_RANK()  OVER (ORDER BY Sum(Cast(FS.SalesAmount as decimal(18,2))) desc) as  RankCol 
@@ -14,14 +13,12 @@ as
         Inner Join 
         DimProduct DP on DP.ProductKey=FS.ProductKey 
         Inner Join 
-        DimCustomer DC on DC.CustomerKey=FS.CustomerKey 
-        Where DC.Occupation!='' 
-        Group BY coalesce(DC.FirstName,DC.MiddleName,DC.LastName), 
-        DC.Occupation, 
+        DimStore DS on DS.StoreKey=FS.StoreKey 
+        Group BY DS.StoreName, 
         DP.ProductName 
         ) 
     Select  
-    CustomerName,Occupation,ProductName,TotalSalesAmount,RankCol 
+    StoreName,ProductName,TotalSalesAmount,RankCol 
 	From resultdata r 
 	where r.RankCol between 1 and 10 
     Order by RankCol 
@@ -31,4 +28,4 @@ go
 
 ----- View results 
 
-Exec Top10_MostValuableCustomer
+Exec Top10_MostValuableStores
