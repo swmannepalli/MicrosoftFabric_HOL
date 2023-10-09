@@ -2,7 +2,7 @@
 
 ### Task 3: Creating a Shortcut in Lakehouse
 
-In this task we create a shortcut to external data source, AzureDataLake Gen2 from lakehouseBronze
+In this task we create a shortcut to external data source, AzureDataLake Gen2 from lakehouseBronze. After this task, folders/files from ADLS Gen2 appear in lakehouseBronze under Files section.
 
 -----------------------------------------------------------------------------------------
 
@@ -71,5 +71,7 @@ In this task we create a shortcut to external data source, AzureDataLake Gen2 fr
 27. **Click** the **Create** button.
 
 	![Lakehouse.](media/lakehouse-3.png)
+
+Now you should see a shorcut created in lakehouseBronze with name 'sales-transaction-litware'. This will have files/folders that ADLS Gen2 bronzeshortcutdata container has.
 
  [Continue >](Task4-Setting-up-the-Warehouse.md)
