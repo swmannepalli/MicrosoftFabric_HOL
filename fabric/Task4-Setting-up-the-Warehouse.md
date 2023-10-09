@@ -1,3 +1,5 @@
+[Home](Readme-shell.md) -  [Next Task (Internal Shortcut) >](Task5-Creating-Internal-Shortcut.md)
+
 ### Task 4: Setting up the Warehouse
 
 In this task, 
@@ -211,3 +213,5 @@ Execute each script to view results.
 59. **Click** on the 'three dots' infront of the visual query name and **click** one 'Moved to Shared queries'
 
 	![Datawarehouse.](media/warehouse-39.png)
+
+[Continue >](Task5-Creating-Internal-Shortcut.md)
