@@ -1,3 +1,5 @@
+[Home](Readme-shell.md) -  [Next Task (Real-Time Analytics) >](Task7-KQL-DB-and-QuerySet-creation.md)
+
 ### Task 6: Importing Notebooks
 
 In this task, we import 5 notebooks and we only execute 1 to show how it works. Rest are for reference only.
@@ -75,3 +77,4 @@ In this task, we import 5 notebooks and we only execute 1 to show how it works. 
 16. Run each cell and look at the output
 
 	
+[Continue >](Task7-KQL-DB-and-QuerySet-creation.md)
