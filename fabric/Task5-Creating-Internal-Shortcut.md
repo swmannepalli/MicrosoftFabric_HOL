@@ -1,3 +1,5 @@
+[Home](Readme-shell.md) -  [Next Task (Import Notebooks) >](Task6-Importing-Notebooks.md)
+
 ### Task 5 : Creating Internal Shortcut
 
 >**Note:** In this task we are creating Internal Shortcut in lakehouse 'Silver To Gold'
@@ -39,3 +41,6 @@
 	|||
 
 >**Note:** Once you are done with Task 6 please go back to Task 5 and follow the steps from the point where you had stopped.
+
+
+[Continue >](Task6-Importing-Notebooks.md)
