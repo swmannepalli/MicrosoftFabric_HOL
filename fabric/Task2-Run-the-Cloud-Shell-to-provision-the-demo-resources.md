@@ -1,3 +1,5 @@
+ [Home](README.md) -  [Next Task (Shortcut Creation) >](Task3-Creating-a-Shortcut-in-Lakehouse.md)
+
 ### Task 2: Run the Cloud Shell to provision the demo resources
 
 In this task the following serives are deployed which are used in different tasks.
@@ -196,3 +198,5 @@ cd ./fabric/fabric/
 41. **Wait** for the tab to load till you get the following screen.
 
 	![Close the browser.](media/demo-3.png)
+
+[Continue >](Task3-Creating-a-Shortcut-in-Lakehouse.md)
