@@ -1,6 +1,6 @@
 ### Task 1: Power BI Workspace and Lakehouse creation
 
- In this task we create two workspaces - ContosoSales and ContosoFinance and four lakehouses - lakehouseBronze, lakehouseSilver and lakehouseGold in ContosoSales workspace and lakehouseFinance in ContosoFinance workspace.
+ In this task we create a workspace - ContosoSales and three lakehouses - lakehouseBronze, lakehouseSilver and lakehouseGold.
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -58,7 +58,6 @@
 
 13. **Repeat** step number 9 to 12 to create two more lakehouses with names 'lakehouseSilver' and 'lakehouseGold' respectively.
 
-14. **Repeat** step number 4 to 6 to **create** a new workspace with the name 'contosoFinance' and then **create** a lakehouse in it and name it 'lakehouseFinance'.
 
 >**Note:** Make sure to add this workspace has fabric Trial License as well and note the names of the workspaces and lakehouses as these will be used during the script execution(Task 2)
 >**Note:** **Copy** the Workspace GUID or ID from the address URL and **Save** the GUID in a notepad for future reference.
