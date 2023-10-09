@@ -154,19 +154,15 @@ while ($complexPassword -ne 1)
 }
 
 $wsIdContosoSales =  Read-Host "Enter your 'contosoSales' PowerBI workspace Id "
-$wsIdContosoFinance =  Read-Host "Enter your 'contosoFinance' PowerBI workspace Id "
 RefreshTokens
 $url = "https://api.powerbi.com/v1.0/myorg/groups/$wsIdContosoSales";
 $contosoSalesWsName = Invoke-RestMethod -Uri $url -Method GET -Headers @{ Authorization="Bearer $powerbitoken" };
 $contosoSalesWsName = $contosoSalesWsName.name
-$url = "https://api.powerbi.com/v1.0/myorg/groups/$wsIdContosoFinance"
-$contosoFinanceWsName = Invoke-RestMethod -Uri $url -Method GET -Headers @{ Authorization="Bearer $powerbitoken" };
-$contosoFinanceWsName = $contosoFinanceWsName.name
+
 
 $lakehouseBronze =  Read-Host "Enter your Bronze Lakehouse name "
 $lakehouseSilver =  Read-Host "Enter your Silver Lakehouse name "
 $lakehouseGold =  Read-Host "Enter your Gold Lakehouse name "
-$lakehouseFinance= Read-Host "Enter your Finance Lakehouse name "
 Add-Content log.txt "------Uploading assets to Lakehouses------"
 Write-Host "------------Uploading assets to Lakehouses------------"
 $tenantId = (Get-AzContext).Tenant.Id
@@ -175,7 +171,6 @@ azcopy login --tenant-id $tenantId
 azcopy copy "https://fabricddib.blob.core.windows.net/bronzelakehousefiles/*" "https://onelake.blob.fabric.microsoft.com/$contosoSalesWsName/$lakehouseBronze.Lakehouse/Files/" --overwrite=prompt --from-to=BlobBlob --s2s-preserve-access-tier=false --check-length=true --include-directory-stub=false --s2s-preserve-blob-tags=false --recursive --trusted-microsoft-suffixes=onelake.blob.fabric.microsoft.com --log-level=INFO;
 azcopy copy "https://fabricddib.blob.core.windows.net/silverlakehousetables/*" "https://onelake.blob.fabric.microsoft.com/$contosoSalesWsName/$lakehouseSilver.Lakehouse/Tables/" --overwrite=prompt --from-to=BlobBlob --s2s-preserve-access-tier=false --check-length=true --include-directory-stub=false --s2s-preserve-blob-tags=false --recursive --trusted-microsoft-suffixes=onelake.blob.fabric.microsoft.com --log-level=INFO;
 azcopy copy "https://fabricddib.blob.core.windows.net/silverlakehousefiles/*" "https://onelake.blob.fabric.microsoft.com/$contosoSalesWsName/$lakehouseSilver.Lakehouse/Files/" --overwrite=prompt --from-to=BlobBlob --s2s-preserve-access-tier=false --check-length=true --include-directory-stub=false --s2s-preserve-blob-tags=false --recursive --trusted-microsoft-suffixes=onelake.blob.fabric.microsoft.com --log-level=INFO;
-azcopy copy "https://fabricddib.blob.core.windows.net/financedata/*" "https://onelake.blob.fabric.microsoft.com/$contosoFinanceWsName/$lakehouseFinance.Lakehouse/Files/" --overwrite=prompt --from-to=BlobBlob --s2s-preserve-access-tier=false --check-length=true --include-directory-stub=false --s2s-preserve-blob-tags=false --recursive --trusted-microsoft-suffixes=onelake.blob.fabric.microsoft.com --log-level=INFO;
 
 #azcopy copy "https://fabricddib.blob.core.windows.net/goldlakehousetables/*" "https://onelake.blob.fabric.microsoft.com/$contosoSalesWsName/$lakehouseGold.Lakehouse/Tables/" --overwrite=prompt --from-to=BlobBlob --s2s-preserve-access-tier=false --check-length=true --include-directory-stub=false --s2s-preserve-blob-tags=false --recursive --trusted-microsoft-suffixes=onelake.blob.fabric.microsoft.com --log-level=INFO;
 
@@ -471,7 +466,7 @@ $ht = new-object system.collections.hashtable
 # $ht.add("#Bing_Map_Key#", "AhBNZSn-fKVSNUE5xYFbW_qajVAZwWYc8OoSHlH8nmchGuDI6ykzYjrtbwuNSrR8")
 $ht.add("#07_Campaign_Analytics_Report_with_Lakehouse#", $($reportList | where { $_.name -eq "07 Campaign Analytics Report with Lakehouse" }).id)
 $ht.add("#09_Sales_Analytics_Report_with_Warehouse#", $($reportList | where { $_.name -eq "09 Sales Analytics Report with Warehouse" }).id)
-$ht.add("#Contoso_Finance_Report#", $($reportList | where { $_.name -eq "Contoso Finance Report" }).id)
+#$ht.add("#Contoso_Finance_Report#", $($reportList | where { $_.name -eq "Contoso Finance Report" }).id)
 $ht.add("#HR_Analytics_Report_Lakehouse#", $($reportList | where { $_.name -eq "HR Analytics Report Lakehouse" }).id)
 $ht.add("#IT_Report#", $($reportList | where { $_.name -eq "IT Report" }).id)
 $ht.add("#Marketing_Report#", $($reportList | where { $_.name -eq "Marketing Report" }).id)
