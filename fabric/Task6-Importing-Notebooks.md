@@ -28,7 +28,7 @@ In this task, we import 5 notebooks and we only execute 1 to show how it works. 
 
 	![Datawarehouse.](media/notebook-5.png)
 
-7. In the workspace **click** on the "02 Bronze to Silver layer_ Medallion Architecture" notebook.
+7. In the workspace **click** on the "03 Silver to Gold layer_ Medallion Architecture" notebook.
 
 	![Datawarehouse.](media/notebook-6.png)
 
@@ -50,11 +50,11 @@ In this task, we import 5 notebooks and we only execute 1 to show how it works. 
 
 	![Datawarehouse.](media/notebook-14.png)
 
-12. **Click** on 'lakehouseSilver' checkbox and **click** on 'Add'.
+12. **Click** on 'lakehouseGold' checkbox and **click** on 'Add'.
 
 	<img width="1079" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/45a549fc-99df-48e6-a9b1-2f81cefb94da">
 
-
+For this workshop, we can skip steps 13 and 14 as we're not executing other notebooks now. 
 13. Similarly **perform** step number 7 to step number 12 for the other notebooks as well.
 
 >**Note:** To perform the above steps you need to attach the notebooks to respective lakehouses before runnig the notebooks. Follow the below instruction for the same.
@@ -66,15 +66,10 @@ In this task, we import 5 notebooks and we only execute 1 to show how it works. 
 	|	02 Bronze to Silver layer_ Medallion Architecture.ipynb	|	lakehouseSilver	|
 	|	03 Silver to Gold layer_ Medallion Architecture.ipynb	|	lakehouseGold	|
 	|	04 Churn Prediction Using MLFlow From Silver To Gold Layer	|	lakehouseSilver	|
-	|	05 Sales Forecasting for Store items in Gold Layer	|	lakehouseSilver	|
+	|	05 Sales Forecasting for Store items in Gold Layer	|	lakehouseGold	|
 	|||
 
-
-15. **Filter** 'Notebook' and then **click** on the notebook '03 Silver to Gold layer_ Medallion Architecture'
-
-	![Close the browser.](media/notebook-16.png)
-
-16. Run each cell and look at the output
+15. Run each cell in '03 Silver to Gold layer_ Medallion Architecture' notebook and look at the output
 
 	
 [Continue >](Task7-KQL-DB-and-QuerySet-creation.md)
