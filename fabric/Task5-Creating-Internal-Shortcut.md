@@ -40,7 +40,6 @@
 	|	fact_campaigndata|	lakehouseSilver	|
 	|||
 
->**Note:** Once you are done with Task 6 please go back to Task 5 and follow the steps from the point where you had stopped.
 
 
 [Continue >](Task6-Importing-Notebooks.md)
