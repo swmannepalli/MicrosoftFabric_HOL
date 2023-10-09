@@ -1,4 +1,4 @@
- [Home](README.md) -  [Next Task (Shortcut Creation) >](Task3-Creating-a-Shortcut-in-Lakehouse.md)
+ [Home](Readme-shell.md) -  [Next Task (Shortcut Creation) >](Task3-Creating-a-Shortcut-in-Lakehouse.md)
 
 ### Task 2: Run the Cloud Shell to provision the demo resources
 
