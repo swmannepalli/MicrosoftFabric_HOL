@@ -1,3 +1,5 @@
+[Home](Readme-shell.md) 
+
 # Task number 8: Dataverse link for Fabric
 
 This will walk you through the end to end process of setting up Dataverse Link for Fabric in your environment to test.
@@ -110,3 +112,5 @@ FROM dbo.account a, dbo.contact c WHERE a.primarycontactid = c.Id
 ```
 
 You've now completed the Dataverse Link Task!
+
+[Home](Readme-shell.md) 
