@@ -22,7 +22,7 @@
 
     ![Close the browser.](media/demo-35.png)
 
-6. In Destination tab **select** 'New table' and provide the name as 'thermostat'and then **click** 'Next:Source' button.
+6. In Destination tab **select** 'New table' and provide the name as 'thermostat' and then **click** 'Next:Source' button.
 
     ![Close the browser.](media/demo-36.png)
 
