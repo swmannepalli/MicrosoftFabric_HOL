@@ -67,7 +67,7 @@ For this workshop, we can skip steps 13 and 14 as we're not executing other note
 	|	05 Sales Forecasting for Store items in Gold Layer	|	lakehouseGold	|
 	|||
 
-15. Run each cell in '03 Silver to Gold layer_ Medallion Architecture' notebook and look at the output
+15. In step#2, replace #LAKEHOUSE_GOLD with the gold lakehouse created. Run each cell in '03 Silver to Gold layer_ Medallion Architecture' notebook and look at the output
 
 	
 [Continue >](Task7-KQL-DB-and-QuerySet-creation.md)
