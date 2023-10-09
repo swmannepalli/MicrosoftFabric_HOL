@@ -163,9 +163,10 @@ step 27 finally **click** on the 'Next' button.
 
 >**Note:** We are going to create 2 more scripts following the above steps for querying the Warehouse data.
 
-46. **Repeat** above steps for the other two scripts in the repository. Get the scripts [HERE](https://github.com/microsoft/Azure-Analytics-and-AI-Engagement/tree/microsoftfabric/fabric/artifacts/warehousescripts)
+46. **Repeat** above steps for the other two scripts in the repository. Get the scripts [HERE](artifacts/warehousescripts)
 
 >**Note:** If there are no replacements necessary in the scripts, you can skip the steps in between.
+>Repeat steps to rename the rest of the scripts and move them to Shared Queries.
 
 Execute each script to view results.
 
