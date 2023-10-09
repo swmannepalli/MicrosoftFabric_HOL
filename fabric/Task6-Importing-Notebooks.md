@@ -28,10 +28,12 @@ In this task, we import 5 notebooks and do not execute them as some of them are 
 
 	![Datawarehouse.](media/notebook-5.png)
 
-7. In the workspace **click** on the "03 Silver to Gold layer_ Medallion Architecture" notebook.
+For this workshop, we can skip steps 8 to 14 as we're not executing notebooks now. 
+
+8. In the workspace **click** on the "03 Silver to Gold layer_ Medallion Architecture" notebook.
 
 
-8. In the left pane **click** on 'Missing Lakehouse' button and **select** 'Remove all Lakehouses'.
+9. In the left pane **click** on 'Missing Lakehouse' button and **select** 'Remove all Lakehouses'.
 
 	![Datawarehouse.](media/notebook-11.png)
 
@@ -51,8 +53,6 @@ In this task, we import 5 notebooks and do not execute them as some of them are 
 
 12. **Click** on 'lakehouseGold' checkbox and **click** on 'Add'.
 
-For this workshop, we can skip steps 13 and 14 as we're not executing other notebooks now. 
-
 13. Similarly **perform** step number 7 to step number 12 for the other notebooks as well.
 
 >**Note:** To perform the above steps you need to attach the notebooks to respective lakehouses before runnig the notebooks. Follow the below instruction for the same.
@@ -66,8 +66,6 @@ For this workshop, we can skip steps 13 and 14 as we're not executing other note
 	|	04 Churn Prediction Using MLFlow From Silver To Gold Layer	|	lakehouseSilver	|
 	|	05 Sales Forecasting for Store items in Gold Layer	|	lakehouseGold	|
 	|||
-
-15. In step#2, replace #LAKEHOUSE_GOLD with the gold lakehouse created. Run each cell in '03 Silver to Gold layer_ Medallion Architecture' notebook and look at the output
 
 	
 [Continue >](Task7-KQL-DB-and-QuerySet-creation.md)
