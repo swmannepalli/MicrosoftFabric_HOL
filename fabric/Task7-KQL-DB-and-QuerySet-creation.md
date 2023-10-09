@@ -80,7 +80,7 @@
 	<img width="805" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/c0424e9b-d834-4c15-96fe-a85f48be91d5">
 
 
-20. It will open the KQL queryset editor. **Click** link [KQL Queryset Scripts](artifacts/kqlscripts). **Copy** and **paste** the script in the editor, select till line #8 or as shown below and **click** 'Run' button.
+20. It will open the KQL queryset editor. **Click** link [KQL Queryset Scripts](artifacts/kqlscripts). **Copy** and **paste** the script in the editor (make sure to remove any existing code in the editor), select till line #8 or as shown below and **click** 'Run' button.
 
 	<img width="945" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/1939b296-1e11-4c14-b63c-80d4753c56a6">
 
