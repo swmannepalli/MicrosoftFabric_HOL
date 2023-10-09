@@ -145,11 +145,12 @@ cd ./fabric/fabric/
 
 28. **Enter** the workspace ids which you copied in Step 7 and 17 of [Task 1](#task-1-power-bi-workspace-and-lakehouse-creation).
 
-<img width="619" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/f77dbeab-9bf1-4b63-a275-c18bfcb98e7b">
+<img width="644" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/6545300c-1cff-4d19-922d-8a150d548024">
+
 
 29. **Enter** all the lakehouses name one by one.
 
-<img width="418" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/9fd15a1a-47f2-4de0-855c-52630d43c795">
+<img width="415" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/97b8c695-5018-4043-be8e-62f0e41a6473">
 
 
 30. You will get another code to authenticate the Azure PowerShell script for creating reports in Power BI. **Copy** the code.
