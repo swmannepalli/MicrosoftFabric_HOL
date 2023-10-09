@@ -63,3 +63,5 @@
 
 >**Note:** Make sure to add this workspace has fabric Trial License as well and note the names of the workspaces and lakehouses as these will be used during the script execution(Task 2)
 >**Note:** **Copy** the Workspace GUID or ID from the address URL and **Save** the GUID in a notepad for future reference.
+
+[Continue >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
