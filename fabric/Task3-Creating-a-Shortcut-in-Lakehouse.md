@@ -1,3 +1,5 @@
+[Home](Readme-shell.md) -  [Next Task (Warehouse Setup) >](Task4-Setting-up-the-Warehouse.md)
+
 ### Task 3: Creating a Shortcut in Lakehouse
 
 In this task we create a shortcut to external data source, AzureDataLake Gen2 from lakehouseBronze
@@ -69,3 +71,5 @@ In this task we create a shortcut to external data source, AzureDataLake Gen2 fr
 27. **Click** the **Create** button.
 
 	![Lakehouse.](media/lakehouse-3.png)
+
+ [Continue >](Task4-Setting-up-the-Warehouse.md)
