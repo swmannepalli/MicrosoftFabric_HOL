@@ -1,4 +1,4 @@
- [Home](README.md) -  [Next Task (Demo Resources Provision) >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
+ [Home](Readme-shell.md) -  [Next Task (Demo Resources Provision) >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
 
 ### Task 1: Power BI Workspace and Lakehouse creation
 
