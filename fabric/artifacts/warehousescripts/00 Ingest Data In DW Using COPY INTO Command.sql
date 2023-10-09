@@ -1,4 +1,4 @@
-----------Create Table in Data Warehouse using the COPY INTO command  
+----------Copy data from ADLS Gen2 to DW table using the COPY INTO command  
 COPY INTO dbo.FactCampaignData  
 FROM 'https://#STORAGE_ACCOUNT_NAME#.dfs.core.windows.net/data-source/Campaign Data/campaign-data2.csv' WITH  
 (  
