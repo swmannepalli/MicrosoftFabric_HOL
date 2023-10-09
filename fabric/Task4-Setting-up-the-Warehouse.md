@@ -152,65 +152,64 @@ step 27 finally **click** on the 'Next' button.
 
 43.  **Right click** on 'SQL query 1' and **click** 'Rename'.
 
-	![Datawarehouse.](media/warehouse-27.png)
 
-48. **Enter** the name as '00 Ingest Data In DW Using COPY INTO Command.sql' and **click** 'Rename' button.
+44. **Enter** the name as '00 Ingest Data In DW Using COPY INTO Command.sql' and **click** 'Rename' button.
 
 	![Datawarehouse.](media/warehouse-28.png)
 
-49. **Click** the 'three dots (Ellipsis)' in front of the name of the scripts and **select** 'Move to Shared queries'.
+45. **Click** the 'three dots (Ellipsis)' in front of the name of the scripts and **select** 'Move to Shared queries'.
 
 	![Datawarehouse.](media/warehouse-29.png)
 
 >**Note:** We are going to create 2 more scripts following the above steps for querying the Warehouse data.
 
-48. **Repeat** above steps for the other two scripts in the repository. Get the scripts [HERE](https://github.com/microsoft/Azure-Analytics-and-AI-Engagement/tree/microsoftfabric/fabric/artifacts/warehousescripts)
+46. **Repeat** above steps for the other two scripts in the repository. Get the scripts [HERE](https://github.com/microsoft/Azure-Analytics-and-AI-Engagement/tree/microsoftfabric/fabric/artifacts/warehousescripts)
 
 >**Note:** If there are no replacements necessary in the scripts, you can skip the steps in between.
 
 Execute each script to view results.
 
-49. **Click** 'New visual query'.
+47. **Click** 'New visual query'.
 
 	![Datawarehouse.](media/warehouse-30.png)
 
-50. **Click** and **drag** the table 'DimProduct' to the canvas.
+48. **Click** and **drag** the table 'DimProduct' to the canvas.
 
 	![Datawarehouse.](media/warehouse-31.png)
 
-51. **Click** and **drag** the table 'FactSales' to the canvas.
+49. **Click** and **drag** the table 'FactSales' to the canvas.
 
 	![Datawarehouse.](media/warehouse-40.png)
 
-52. **Click** 'Combine' and **select** 'Merge queries as new'.
+50. **Click** 'Combine' and **select** 'Merge queries as new'.
 
 	![Datawarehouse.](media/warehouse-32.png)
 
-53. In the 'Left table for merge' **select** 'DimProduct' from the dropdown and **click** on column 'ProductKey' of the table.
+51. In the 'Left table for merge' **select** 'DimProduct' from the dropdown and **click** on column 'ProductKey' of the table.
 
 	![Datawarehouse.](media/warehouse-33.png)
 
-54. **Scroll down** in the 'Right table for merge' **select** 'FactSales' from the dropdown and **click** on column 'ProductKey' of the table.
+52. **Scroll down** in the 'Right table for merge' **select** 'FactSales' from the dropdown and **click** on column 'ProductKey' of the table.
 
 	![Datawarehouse.](media/warehouse-34.png)
 
-55. **Scroll down** to Join kind section and **click** on 'Inner' radio button and click on 'OK' button.
+53. **Scroll down** to Join kind section and **click** on 'Inner' radio button and click on 'OK' button.
 
 	![Datawarehouse.](media/warehouse-35.png)
 
-56. You would see the following result.
+54. You would see the following result.
 
 	![Datawarehouse.](media/warehouse-36.png)
 
-57. **Right click** on 'Visual query 1' and **select** 'Rename'.
+55. **Right click** on 'Visual query 1' and **select** 'Rename'.
 
 	![Datawarehouse.](media/warehouse-37.png)
 
-58. **Enter** the name as "Visual query- Total Sales By Product" and **click** on 'Rename' button.
+56. **Enter** the name as "Visual query- Total Sales By Product" and **click** on 'Rename' button.
 
 	![Datawarehouse.](media/warehouse-38.png)
 
-59. **Click** on the 'three dots' infront of the visual query name and **click** one 'Moved to Shared queries'
+57. **Click** on the 'three dots' infront of the visual query name and **click** one 'Moved to Shared queries'
 
 	![Datawarehouse.](media/warehouse-39.png)
 
