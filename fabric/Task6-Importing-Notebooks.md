@@ -52,6 +52,7 @@ In this task, we import 5 notebooks and we only execute 1 to show how it works. 
 12. **Click** on 'lakehouseGold' checkbox and **click** on 'Add'.
 
 For this workshop, we can skip steps 13 and 14 as we're not executing other notebooks now. 
+
 13. Similarly **perform** step number 7 to step number 12 for the other notebooks as well.
 
 >**Note:** To perform the above steps you need to attach the notebooks to respective lakehouses before runnig the notebooks. Follow the below instruction for the same.
