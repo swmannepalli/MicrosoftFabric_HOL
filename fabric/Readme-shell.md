@@ -13,9 +13,9 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
    - Microsoft.Fabric
    - Microsoft.Databricks
    - Microsoft.EventHub
-   - Microsoft.SQLSever
-   - Microsoft.StorageAccount
-   - Microsoft.AppService
+   - Microsoft.SQL
+   - Microsoft.Storage
+   - Microsoft.App
 * You must only execute one deployment at a time and wait for its completion.Running multiple deployments simultaneously is highly discouraged, as it can lead to deployment failures.
 * Select a region where the desired Azure Services are available. If certain services are not available, deployment may fail. See [Azure Services Global Availability](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=all) for understanding target service availability. (Consider the region availability for Synapse workspace, Iot Central and cognitive services while choosing a location)
 * In this Accelerator, we have converted real-time reports into static reports for the users' ease but have covered the entire process to configure real-time dataset. Using those real-time dataset, you can create real-time reports.
