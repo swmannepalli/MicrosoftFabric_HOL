@@ -128,7 +128,8 @@ step 27 finally **click** on the 'Next' button.
 
 36. **Click** the first script to open it.
 
-	![Datawarehouse.](media/warehouse-19.png)
+	<img width="994" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/0fec0f9b-b989-49a1-bd25-0b27d5eec862">
+
 37. **copy** the script and paste in the SQL Query tab in Data Warehouse page. **Replace** '#STORAGE_ACCOUNT_NAME#' and '#STORAGE_ACCOUNT_SAS_TOKEN#'. To get these values, 
 
 38. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources).
