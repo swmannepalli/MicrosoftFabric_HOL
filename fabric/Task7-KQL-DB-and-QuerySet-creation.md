@@ -32,7 +32,7 @@
 
 	>**Note:** For the rest of the details we will get the data from the resource group.
 
-8. In a new tab **open** the resource group created in [Task 2](#task-2-run-the-cloud-shell-to-provision-the-demo-resources).
+8. In a new tab **open** the resource group created in [Task 2](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md).
 
 9. **Search** for 'Event Hub namespace' and **copy** the name of Event Hub namespace and **paste** it in a notepad for further use.
 
