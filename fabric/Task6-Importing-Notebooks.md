@@ -2,7 +2,7 @@
 
 ### Task 6: Importing Notebooks
 
-In this task, we import 5 notebooks and do not execute them as some of them are automatically created as part of deployment. For reference only.
+In this task, we import 5 notebooks and ***do not execute*** them as some of them are automatically created as part of deployment. For reference only.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
