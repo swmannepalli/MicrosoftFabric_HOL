@@ -32,6 +32,7 @@ https://mcapsservices.powerappsportals.com/SignIn?ReturnUrl=%2Fsupport%2Feslabs-
   - [Task 5: Importing Notebooks](Task5-Importing-Notebooks.md)
   - [Task 6: Creating Internal Shortcut](Task6-Creating-Internal-Shortcut.md)
   - [Task 7: KQL DB and QuerySet creation](Task7-KQL-DB-and-QuerySet-creation.md)
+  - [Task 8: Dataverse Link to Microsoft Fabric](Task8-Dataverse-Link.md)
 
 - [Appendix](#appendix)
   - [Setting up the Lakehouse](#setting-up-the-lakehouse)
